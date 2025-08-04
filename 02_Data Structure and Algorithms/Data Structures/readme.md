@@ -2,6 +2,9 @@
 
 ## 1. Linear Data Structures
 - **Array**: A collection of elements stored in contiguous memory, accessed by index.
+  - Static Array: Fixed size, allocated at compile time.
+  - Dynamic Array: Resizable, allocated at runtime
+  -  Suffix Array: A sorted array of all suffixes of a string, enabling efficient string operations.
 - **Linked List**: A sequence of nodes, each containing data and a reference to the next node.
   - Singly Linked List
   - Doubly Linked List
@@ -33,21 +36,16 @@
   - Binomial Heap
   - Fibonacci Heap
 
-## 3. Graph-Based Data Structures
 - **Graph**: A collection of nodes connected by edges, representing relationships.
   - Directed Graph
   - Undirected Graph
   - Weighted Graph
-- **Disjoint Set (Union-Find)**: A structure for tracking elements in disjoint sets, supporting union and find operations.
+  - **Disjoint Set (Union-Find)**: A structure for tracking elements in disjoint sets, supporting union and find operations.
 
-## 4. Associative Data Structures
+## 3. Associative Data Structures
 - **Hash Table**: A structure mapping keys to values using a hash function for fast lookup.
   - **Set**: A collection of unique elements, often implemented with hash tables or trees.
   - **Map/Dictionary**: A collection of key-value pairs with unique keys for efficient retrieval.
   - **LRU Cache**: A hash table and doubly linked list for tracking least-recently-used items.
 - **Bloom Filter**: A probabilistic structure for testing set membership with minimal space.
 - **Skip List**: A probabilistic layered linked list for fast search, insertion, and deletion.
-
-## 5. String-Specific Data Structures
-- **Suffix Array**: A sorted array of all suffixes of a string, enabling efficient string operations.
-- **Suffix Tree**: A compressed trie of all suffixes, optimized for pattern matching (also listed under Trees).
