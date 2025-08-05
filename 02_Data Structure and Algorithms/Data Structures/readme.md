@@ -31,10 +31,10 @@
   - **Trie**: A tree-like structure for storing strings, with nodes representing prefixes.
     - **Suffix Tree**: A compressed trie of all suffixes of a string, for fast pattern matching.
     - **Radix/Patricia Tree**: An optimized trie for efficient string storage and retrieval.
-- **Heap**: A tree-based structure where the parent is larger (max-heap) or smaller (min-heap) than its children.
-  - Binary Heap
-  - Binomial Heap
-  - Fibonacci Heap
+  - **Heap**: A tree-based structure where the parent is larger (max-heap) or smaller (min-heap) than its children.
+    - Binary Heap
+    - Binomial Heap
+    - Fibonacci Heap
 
 - **Graph**: A collection of nodes connected by edges, representing relationships.
   - Directed Graph
