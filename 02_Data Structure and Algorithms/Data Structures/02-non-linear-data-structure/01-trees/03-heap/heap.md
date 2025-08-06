@@ -24,4 +24,18 @@ A heap is a specialized tree-based data structure that satisfies the heap proper
 
 ### Note
 - Heaps form the canonically underlying data stucture for priority queues.
-- 
+
+### Insertion into a heap
+- Insert the element at the end of the heap (maintaining the ACBT property)
+- Bubble-up the element to restore the heap property
+  - Compare the inserted element with its parent
+  - If it violates the heap property, swap it with the parent
+  - Repeat until the heap property is restored or the element becomes the root
+
+### Deletion from a heap
+- Remove the root element (max or min)
+- Replace it with the last element in the heap (maintaining the ACBT property)
+- Bubble-down the element to restore the heap property
+  - Compare the element with its children
+  - If it violates the heap property, swap it with the larger (or smaller) child
+  - Repeat until the heap property is restored or the element becomes a leaf

@@ -7,3 +7,4 @@ They are generally implemented using heaps.
 ![alt text](image-5.png)
 
 - A hack to turn all numbers from a min-priority queue into a max-priority queue is to negate all the numbers.
+
