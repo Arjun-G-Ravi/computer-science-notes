@@ -21,7 +21,9 @@ Graph theory is a branch of mathematics and computer science that studies graphs
 ## Representing Graphs
 - Adjacency Matrix: A 2D array where the cell at row `i` and column `j` indicates whether there is an edge between vertex `i` and vertex `j`. This representation is efficient for dense graphs but can consume a lot of memory for sparse graphs.
 ![alt text](image.png)
+  
 - Adjacency List: A list where each vertex has a list of adjacent vertices. Generally, we only node down the edges that goes out of a vertex. This representation is more space-efficient for sparse graphs and is commonly used in practice.
 ![alt text](image-1.png)
+
 - Edge List: A list of edges, where each edge is represented as a pair (or tuple) of vertices. This representation is simple and can be useful for certain algorithms but is less efficient for graph traversal and is very unstructured, and therefore not commonly used.
-- ![alt text](image-2.png)
+![alt text](image-2.png)
