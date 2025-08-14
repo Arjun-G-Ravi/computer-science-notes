@@ -27,8 +27,11 @@
 3. After `V-1` iterations, check for negative weight cycles by trying to relax the edges again. If any distance can still be updated, a negative weight cycle exists.
 
 # 4. Floyd-Warshall Algorithm
-- It is an all-pairs shortest path algorithm that finds the shortest paths between all pairs of vertices in a weighted graph.
+- It is an all-pairs shortest path algorithm that finds the `shortest paths between all pairs of vertices` in a weighted graph.
 - It can handle negative weights but not negative weight cycles.
 - Time complexity is `O(V^3)`
+- It runs 3 loops, one for each vertex, and the other two for finding the shortest paths between pairs of vertices.
+- It uses dynamic programming to iteratively improve the shortest paths.
+- We can use the double running technique to find negative weight cycles.(Run the algorithm a second time to check if any distance can still be updated after the first run. If so, a negative weight cycle exists.)
 
 ![alt text](image-3.png)
